@@ -1,6 +1,8 @@
 fastapi
 uvicorn
 python-multipart
+httpx 
+httpx2
 sqlalchemy
 pydantic
 python-jose[cryptography]
