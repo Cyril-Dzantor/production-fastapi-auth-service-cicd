@@ -42,8 +42,12 @@ jobs:
           context: .
           push: true
           tags: ckdtest/auth-api:latest
+      - name: Trigger Render Deploument 
+        run: curl ${{secrets.RENDER_DEPLOY_HOOK }}
+
 
     
+
 
 
 
